@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  color: $brand-text-color;
+  background-color: $brand-bg-color;
+}
+
+// always make sure images have an alt attribute
+img:not([alt]) {
+  border: 5px dashed $brand-danger;
+}
+
+/* vue-icon global style */
+i {
+  display: inline-block;
+  height: $font-size;
+  width: $font-size;
+  fill: $brand-text-color;
+
+  svg {
+    height: inherit;
+    width: inherit;
+    fill: currentColor !important;
+    stroke: currentColor !important;
+  }
+
+  g {
+    stroke: currentColor !important;
+  }
+}
