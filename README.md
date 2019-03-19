@@ -91,6 +91,3 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 - [Slack](https://slack-vue-starter.herokuapp.com/)
 - [Twitter](https://twitter.com/_jwerner_)
 
-# License
-
-[MIT](http://opensource.org/licenses/MIT)
