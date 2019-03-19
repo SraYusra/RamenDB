@@ -43,7 +43,6 @@ import { mapActions, mapGetters } from 'vuex';
 import { registerModule } from '@/app/store';
 import { ParserModule } from '../module';
 import { IPreLoad } from '@/server/isomorphic';
-import { VueCsvImport } from 'vue-csv-import';
 import VueGrid from '@/app/shared/components/VueGrid/VueGrid.vue';
 import VueGridItem from '@/app/shared/components/VueGridItem/VueGridItem.vue';
 import VueButton from '@/app/shared/components/VueButton/VueButton.vue';
